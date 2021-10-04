@@ -47,7 +47,7 @@ RUN docker-php-ext-install \
 
 COPY --from=composer /usr/bin/composer /usr/local/bin/composer
 
-ARG SYMFONY_CLI_VERSION=4.21.3
+ARG SYMFONY_CLI_VERSION=4.26.6
 RUN wget https://get.symfony.com/cli/installer -O - | bash;
 
 RUN mv ${HOME}/.symfony/bin/symfony /usr/local/bin/symfony;
