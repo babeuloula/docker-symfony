@@ -1,6 +1,6 @@
 # Docker Symfony
 
-Dockerfile with PHP7.4 and Symfony binary
+Dockerfile with Symfony binary
 
 ## How to use this image
 
@@ -22,5 +22,5 @@ alias symfony='docker run --rm -it --name symfony_docker --user ${UID}:${GID} -v
 
 ```bash
 symfony new my_project
-symfony --full my_project
+symfony --webapp my_project
 ```
