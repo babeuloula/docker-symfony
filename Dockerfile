@@ -1,4 +1,4 @@
-FROM php:8.1-cli
+FROM php:8.1-cli-bookworm
 
 RUN \
     echo 'deb [trusted=yes] https://repo.symfony.com/apt/ /' | tee /etc/apt/sources.list.d/symfony-cli.list; \
